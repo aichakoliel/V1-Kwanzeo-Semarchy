@@ -1,0 +1,19 @@
+// [
+//     {
+//       "rule_id": "1001",
+//       "rule_type": "MatchRule",
+//       "match_variable": "RequestHeaders[Host]",
+//       "operator": "Contains",
+//       "match_values": ["example.com"],
+//       "action": "Block"
+//     },
+//     {
+//       "rule_id": "1002",
+//       "rule_type": "MatchRule",
+//       "match_variable": "RequestHeaders[User-Agent]",
+//       "operator": "Contains",
+//       "match_values": ["malicious-user-agent"],
+//       "action": "Block"
+//     }
+//   ]
+  
