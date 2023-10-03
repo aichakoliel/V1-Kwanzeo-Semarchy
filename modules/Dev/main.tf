@@ -42,8 +42,8 @@ resource "azurerm_network_security_rule" "https_inbound" {
   destination_port_range      = "443"
   source_address_prefix       = "*"
   destination_address_prefix  = "*"
-  resource_group_name         = azurerm_resource_group.rg-dev1.name
-  network_security_group_name = azurerm_network_security_group.nsg-dev1.name
+  resource_group_name         = azurerm_resource_group.rg-DEV01.name
+  network_security_group_name = azurerm_network_security_group.nsg-DEV01.name
 }
 
 #Virtual network

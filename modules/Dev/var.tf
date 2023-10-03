@@ -63,12 +63,12 @@ variable "size" {
 }
 
 variable "admin_username" {
-  default = "admin-DEV01"
+  default = ""
 
 }
 
 variable "admin_password" {
-  default = "Kwanzeo1234!"
+  default = "" 
   
 }
 
@@ -111,8 +111,8 @@ variable "postgresql_server_DEV01" {
     sku_name      = "GP_Standard_D4s_v3" #"B_Gen5_2"
     storage_mb    = 32768  #5120
     backup_days   = 7 
-    login         = "psqladmin"
-    password      = "H@Sh1CoR3!"
+    login         = ""
+    password      = ""
     #version       = "9.5"
 
   }
